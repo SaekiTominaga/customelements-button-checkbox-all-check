@@ -2,8 +2,6 @@ type course = 'check' | 'uncheck';
 
 /**
  * Button to check / uncheck all checkboxes by Custom Elements.
- *
- * @version 1.0.0
  */
 export default class ButtonCheckboxesCtrl extends HTMLButtonElement {
 	#course: course | null = null; // ボタンの機能（全選択 or 全解除）

@@ -14,8 +14,6 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
 var _course, _checkboxElements;
 /**
  * Button to check / uncheck all checkboxes by Custom Elements.
- *
- * @version 1.0.0
  */
 export default class ButtonCheckboxesCtrl extends HTMLButtonElement {
     constructor() {

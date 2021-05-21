@@ -1,7 +1,5 @@
 /**
  * Button to check / uncheck all checkboxes by Custom Elements.
- *
- * @version 1.0.0
  */
 export default class ButtonCheckboxesCtrl extends HTMLButtonElement {
     #private;
