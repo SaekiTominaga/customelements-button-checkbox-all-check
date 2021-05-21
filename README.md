@@ -45,15 +45,15 @@ Button to select / deselect all checkboxes by Custom Elements.
 ## Attributes
 
 <dl>
-<dt>type [optional]</dt>
+<dt><code>type</code> [optional]</dt>
 <dd>This function automatically sets <code>type="button"</code>.
 However, it is recommended to manually add <code>type="button"</code> for JavaScript disabled environments and browsers that do not <a href="https://caniuse.com/custom-elementsv1">support Customized built-in elements</a> (Safari 14, Edge Legacy, etc.). According to <a href="https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type">the description in the HTML specification</a>, <q cite="https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type">The missing value default and invalid value default are the <a href="https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type-submit-state">Submit Button</a> state</q>.</dd>
-<dt>data-course [required]</dt>
+<dt><code>data-course</code> [required]</dt>
 <dd>'check' / 'uncheck'</dd>
-<dt>data-target-for [conditionally required]</dt>
+<dt><code>data-target-for</code> [conditionally required]</dt>
 <dd>An ancestor element's ID of the checkboxes. (One of the `data-targets-class`, `data-targets-name`, or this attribute is required)</dd>
-<dt>data-targets-class [conditionally required]</dt>
+<dt><code>data-targets-class</code> [conditionally required]</dt>
 <dd>Checkboxes `class` attribute value. (One of the `data-target-for`, `data-targets-name`, or this attribute is required)</dd>
-<dt>data-targets-name [conditionally required]</dt>
+<dt><code>data-targets-name</code> [conditionally required]</dt>
 <dd>Checkboxes `name` attribute value. (One of the `data-target-for`, `data-targets-class`, or this attribute is required)</dd>
 </dl>
